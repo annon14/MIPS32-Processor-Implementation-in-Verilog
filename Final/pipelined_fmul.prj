@@ -1,0 +1,6 @@
+verilog work "reg_mul_add.v"
+verilog work "reg_add_norm.v"
+verilog work "fmul_mul.v"
+verilog work "fmul_add.v"
+verilog work "fmul-norm.v"
+verilog work "pipelined_fmul.v"

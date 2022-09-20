@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Final.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="alu.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="alu.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="alu.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="alu.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cla32.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="cla32.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="cla32.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cpu_cache_tlb_memory.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cpu_cache_tlb_memory.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cpu_cache_tlb_memory.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cpu_cache_tlb_memory.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cpu_cache_tlb_memory.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cpu_cache_tlb_memory_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cpu_cache_tlb_memory_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cpu_cache_tlb_memory_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_cache.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="d_cache.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="d_cache.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dffe32.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dffe32.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dffe32.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="i_cache.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="i_cache.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="i_cache.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="i_cache.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="i_cache.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="iu_cache_tlb_cu.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="iu_cache_tlb_cu.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="iu_cache_tlb_cu.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux2x32.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="mux2x32.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="mux2x32.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux2x5.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="mux2x5.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="mux2x5.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux4x32.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="mux4x32.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="mux4x32.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pipelined_fadder.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="pipelined_fadder.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="pipelined_fadder.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pipelined_fmul.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="pipelined_fmul.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="pipelined_fmul.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="regfile.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="regfile.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="regfile.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="regfile2w.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="regfile2w.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="regfile2w.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tlb_8_entry.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="tlb_8_entry.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="tlb_8_entry.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="vpc.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="vpc.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="vpc.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1549894068" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1549894068">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1549894068" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7561941835581015561" xil_pn:start_ts="1549894068">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1549894068" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5525435448509297903" xil_pn:start_ts="1549894068">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1549894068" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1549894068">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1549894068" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6414935814323742933" xil_pn:start_ts="1549894068">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1549894068" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1549894068">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1549894068" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3324488677108089701" xil_pn:start_ts="1549894068">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1550124320" xil_pn:in_ck="-45671554577899196" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-4155067575046445970" xil_pn:start_ts="1550124303">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1549894078" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5804791418445752662" xil_pn:start_ts="1549894078">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+  </transforms>
+
+</generated_project>

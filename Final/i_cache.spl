@@ -1,0 +1,18 @@
+[Inputs]
+p_strobe
+uncached
+clk
+clrn
+m_ready
+=p_a[31:0]=
+=m_dout[31:0]=
+[Outputs]
+p_ready
+cache_miss
+m_strobe
+=p_din[31:0]=
+=m_a[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel i_cache
+

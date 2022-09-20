@@ -1,0 +1,346 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Reading design: cpu_cache_tlb_memory.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cpu_cache_tlb_memory.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cpu_cache_tlb_memory"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : cpu_cache_tlb_memory
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\gp.v" into library work
+Parsing module <gp>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\add.v" into library work
+Parsing module <add>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cla_2.v" into library work
+Parsing module <cla_2>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cla_4.v" into library work
+Parsing module <cla_4>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cla_8.v" into library work
+Parsing module <cla_8>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cla_16.v" into library work
+Parsing module <cla_16>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\wallace_26x24_product.v" into library work
+Parsing module <wallace_26x24_product>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\wallace24x28_product.v" into library work
+Parsing module <wallace_24x28_product>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cla32.v" into library work
+Parsing module <cla32>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\shift_to_msb_equ_1.v" into library work
+Parsing module <shift_to_msb_equ_1>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\shift_even_bits.v" into library work
+Parsing module <shift_even_bits>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\shift.v" into library work
+Parsing module <shift>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\root_newton24.v" into library work
+Parsing module <root_newton24>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\reg_mul_add.v" into library work
+Parsing module <reg_mul_add>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\reg_cal_norm.v" into library work
+Parsing module <reg_cal_norm>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\reg_align_cal.v" into library work
+Parsing module <reg_align_cal>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\reg_add_norm.v" into library work
+Parsing module <reg_add_norm>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\ram8x24.v" into library work
+Parsing module <ram8x24>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\newton24.v" into library work
+Parsing module <newton24>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\mux4x32.v" into library work
+Parsing module <mux4x32>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\mux2x3.v" into library work
+Parsing module <mux2x3>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fmul_mul.v" into library work
+Parsing module <fmul_mul>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fmul_add.v" into library work
+Parsing module <fmul_add>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fmul-norm.v" into library work
+Parsing module <fmul_norm>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fadd_norm.v" into library work
+Parsing module <fadd_norm>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fadd_cal.v" into library work
+Parsing module <fadd_cal>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fadd_align.v" into library work
+Parsing module <fadd_align>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cam8x21.v" into library work
+Parsing module <cam8x21>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\addsub32.v" into library work
+Parsing module <addsub32>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\vpc.v" into library work
+Parsing module <vpc>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\tlb_8_entry.v" into library work
+Parsing module <tlb_8_entry>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\regfile.v" into library work
+Parsing module <regfile>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\pipelined_fmul.v" into library work
+Parsing module <pipelined_fmul>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\pipelined_fadder.v" into library work
+Parsing module <pipelined_fadder>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\mux2x5.v" into library work
+Parsing module <mux2x5>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\mux2x32.v" into library work
+Parsing module <mux2x32>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\i_cache.v" into library work
+Parsing module <i_cache>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\iu_cache_tlb_cu.v" into library work
+Parsing module <iu_cache_tlb_cu>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fsqrt_newton.v" into library work
+Parsing module <fsqrt_newton>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fdiv_newton.v" into library work
+Parsing module <fdiv_newton>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\d_cache.v" into library work
+Parsing module <d_cache>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\dffe32.v" into library work
+Parsing module <dffe32>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\alu.v" into library work
+Parsing module <alu>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\regfile2w.v" into library work
+Parsing module <regfile2w>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\iu_cache_tlb.v" into library work
+Parsing module <iu_cache_tlb>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fpu.v" into library work
+Parsing module <fpu>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\physical_memory.v" into library work
+Parsing module <physical_memory>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cpucachetlb.v" into library work
+Parsing module <cpu_cache_tlb>.
+Analyzing Verilog file "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cpu_cache_tlb_memory.v" into library work
+Parsing module <cpu_cache_tlb_memory>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <cpu_cache_tlb_memory>.
+
+Elaborating module <cpu_cache_tlb>.
+WARNING:HDLCompiler:1016 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\iu_cache_tlb.v" Line 115: Port p_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\iu_cache_tlb.v" Line 145: Port p_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\iu_cache_tlb.v" Line 211: Port p_out is not connected to this instance
+
+Elaborating module <iu_cache_tlb>.
+
+Elaborating module <vpc>.
+
+Elaborating module <cla32>.
+
+Elaborating module <cla_16>.
+
+Elaborating module <cla_8>.
+
+Elaborating module <cla_4>.
+
+Elaborating module <cla_2>.
+
+Elaborating module <add>.
+
+Elaborating module <gp>.
+WARNING:HDLCompiler:189 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\iu_cache_tlb.v" Line 115: Size mismatch in connection of port <g_out>. Formal port size is 1-bit while actual signal size is 32-bit.
+
+Elaborating module <mux4x32>.
+
+Elaborating module <tlb_8_entry>.
+ERROR:HDLCompiler:1654 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\tlb_8_entry.v" Line 36: Instantiating <rdm> from unknown module <rand3>
+Module tlb_8_entry remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\tlb_8_entry.v" Line 21: Empty module <tlb_8_entry> remains a black box.
+
+Elaborating module <i_cache>.
+
+Elaborating module <dffe32>.
+WARNING:HDLCompiler:189 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\iu_cache_tlb.v" Line 145: Size mismatch in connection of port <g_out>. Formal port size is 1-bit while actual signal size is 32-bit.
+
+Elaborating module <regfile>.
+
+Elaborating module <mux2x32>.
+
+Elaborating module <mux2x5>.
+
+Elaborating module <iu_cache_tlb_cu>.
+WARNING:HDLCompiler:189 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\iu_cache_tlb.v" Line 211: Size mismatch in connection of port <g_out>. Formal port size is 1-bit while actual signal size is 32-bit.
+
+Elaborating module <alu>.
+WARNING:HDLCompiler:1016 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\addsub32.v" Line 31: Port p_out is not connected to this instance
+
+Elaborating module <addsub32>.
+WARNING:HDLCompiler:189 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\addsub32.v" Line 31: Size mismatch in connection of port <g_out>. Formal port size is 1-bit while actual signal size is 32-bit.
+
+Elaborating module <shift>.
+WARNING:HDLCompiler:1127 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\iu_cache_tlb.v" Line 218: Assignment to z ignored, since the identifier is never used
+
+Elaborating module <d_cache>.
+WARNING:HDLCompiler:1127 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cpucachetlb.v" Line 62: Assignment to fasmds ignored, since the identifier is never used
+
+Elaborating module <regfile2w>.
+
+Elaborating module <fpu>.
+
+Elaborating module <pipelined_fadder>.
+
+Elaborating module <fadd_align>.
+
+Elaborating module <reg_align_cal>.
+
+Elaborating module <fadd_cal>.
+
+Elaborating module <reg_cal_norm>.
+
+Elaborating module <fadd_norm>.
+
+Elaborating module <pipelined_fmul>.
+
+Elaborating module <fmul_mul>.
+ERROR:HDLCompiler:1654 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fmul_mul.v" Line 55: Instantiating <wt24> from unknown module <wallace_24x24>
+Module fmul_mul remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fmul_mul.v" Line 21: Empty module <fmul_mul> remains a black box.
+
+Elaborating module <reg_mul_add>.
+
+Elaborating module <fmul_add>.
+
+Elaborating module <reg_add_norm>.
+
+Elaborating module <fmul_norm>.
+
+Elaborating module <fdiv_newton>.
+
+Elaborating module <shift_to_msb_equ_1>.
+
+Elaborating module <newton24>.
+
+Elaborating module <wallace_26x24_product>.
+ERROR:HDLCompiler:1654 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\wallace_26x24_product.v" Line 29: Instantiating <wt_partial> from unknown module <wallace_26x24>
+Module wallace_26x24_product remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\wallace_26x24_product.v" Line 21: Empty module <wallace_26x24_product> remains a black box.
+ERROR:HDLCompiler:1654 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\newton24.v" Line 71: Instantiating <xip1> from unknown module <wallace_26x26_product>
+Module newton24 remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\newton24.v" Line 21: Empty module <newton24> remains a black box.
+WARNING:HDLCompiler:1127 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fpu.v" Line 51: Assignment to busy_div ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fpu.v" Line 52: Assignment to reg_x_div ignored, since the identifier is never used
+
+Elaborating module <fsqrt_newton>.
+
+Elaborating module <shift_even_bits>.
+
+Elaborating module <root_newton24>.
+
+Elaborating module <wallace_24x28_product>.
+ERROR:HDLCompiler:1654 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\wallace24x28_product.v" Line 29: Instantiating <wt_partial> from unknown module <wallace_24x28>
+Module wallace_24x28_product remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\wallace24x28_product.v" Line 21: Empty module <wallace_24x28_product> remains a black box.
+ERROR:HDLCompiler:1654 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\root_newton24.v" Line 74: Instantiating <wt> from unknown module <wallace_24x26>
+Module root_newton24 remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\root_newton24.v" Line 22: Empty module <root_newton24> remains a black box.
+WARNING:HDLCompiler:1127 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fpu.v" Line 53: Assignment to busy_sqrt ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\fpu.v" Line 54: Assignment to reg_x_sqrt ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cpucachetlb.v" Line 71: Assignment to e1c ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\cpucachetlb.v" Line 72: Assignment to count_sqrt ignored, since the identifier is never used
+
+Elaborating module <physical_memory>.
+ERROR:HDLCompiler:1654 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\physical_memory.v" Line 65: Instantiating <ram0> from unknown module <lpm_ram_dq>
+Module physical_memory remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\College Career Courses\Bachelor Of Engineering Project\Codes\Final\physical_memory.v" Line 21: Empty module <physical_memory> remains a black box.
+--> 
+
+Total memory usage is 373476 kilobytes
+
+Number of errors   :    7 (   0 filtered)
+Number of warnings :   23 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

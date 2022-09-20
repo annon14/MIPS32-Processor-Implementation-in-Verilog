@@ -1,0 +1,6 @@
+verilog work "reg_cal_norm.v"
+verilog work "reg_align_cal.v"
+verilog work "fadd_norm.v"
+verilog work "fadd_cal.v"
+verilog work "fadd_align.v"
+verilog work "pipelined_fadder.v"

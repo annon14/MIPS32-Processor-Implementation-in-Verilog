@@ -1,0 +1,4 @@
+verilog work "ram8x24.v"
+verilog work "mux2x3.v"
+verilog work "cam8x21.v"
+verilog work "tlb_8_entry.v"

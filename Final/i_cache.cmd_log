@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {F:/College Career Courses/Bachelor Of Engineering Project/Codes/Final/i_cache.v} -lang verilog -prj Final -o i_cache.spl -module i_cache -template E:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 i_cache.spl {F:/College Career Courses/Bachelor Of Engineering Project/Codes/Final/i_cache.sym} 
